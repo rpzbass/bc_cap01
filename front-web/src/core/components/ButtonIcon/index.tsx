@@ -21,7 +21,7 @@ export const ButtonIcon = ({buttonText}:Props) => (
         </button>
         <div className="btn-icon-content">
             
-            <Buttonseta/>
+            <Buttonseta />
         
         </div>
 
