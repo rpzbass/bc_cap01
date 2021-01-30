@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Digite um nome para o commit "
+
+read -a valores
+
+
+list=$(for val in $valores do str=val done) 
+
+
+echo "teste" $list
+
+
