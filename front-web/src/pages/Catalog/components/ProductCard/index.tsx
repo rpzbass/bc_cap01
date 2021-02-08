@@ -1,15 +1,13 @@
 import React from 'react';
 import './styles.scss';
-import ProductPrice from '../../../../core/components/ProductPrice';
-import { Product } from '../../../../core/types/Products';
-
+import ProductPrice from 'core/components/ProductPrice';
+import { Product } from 'core/types/Products';
 
 type Props = {
     
     product: Product;
     
 }
-
 
 export const ProductCard = ({product}:Props) => (
     
@@ -18,9 +16,7 @@ export const ProductCard = ({product}:Props) => (
             <img src={product.img_url} alt={product.name} className="product-card-image"/>
             <div className="product-info">
                 <h6 className="product-name">
-                    
                     {product.name}
-
                 </h6>
                 <ProductPrice price={product.price}/>
             </div>    

@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.scss';
 import { Link } from 'react-router-dom';
-import { ReactComponent as Mainimage } from '../../core/assets/images/Desenho.svg';
-import { ButtonIcon } from '../../core/components/ButtonIcon';
+import { ReactComponent as Mainimage } from 'core/assets/images/Desenho.svg';
+import { ButtonIcon } from 'core/components/ButtonIcon';
 
 
 const Home = () => (
@@ -21,9 +21,7 @@ const Home = () => (
                 </Link>
             </div>
             <div className="col-6">
-
                 <Mainimage className="main-image" />
-
             </div>
         </div>
     </div>

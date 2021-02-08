@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Buttonseta} from '../../assets/images/Seta.svg';
+import { ReactComponent as Buttonseta} from 'core/assets/images/Seta.svg';
 import './styles.scss';
 
 

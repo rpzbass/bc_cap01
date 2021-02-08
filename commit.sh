@@ -12,7 +12,9 @@ sleep 1
 
 git status 
 
-git commit -m ${commit[@]}
+sleep 1
+
+git commit -m echo ${commit[@]}
 
 git oneline --log
 
